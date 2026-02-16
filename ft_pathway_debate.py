@@ -1,0 +1,15 @@
+if __name__ == "__main__":
+    print()
+    print("=== Pathway Debate Mastery ===")
+    print()
+
+    print("Testing Absolute Imports (from basic.py):")
+    from alchemy.transmutation import lead_to_gold, stone_to_gem
+    print("lead_to_gold():", lead_to_gold())
+    print("stone_to_gem():", stone_to_gem())
+    print()
+
+    print("Testing Relative Imports (from advanced.py):")
+    from alchemy.transmutation import philosophers_stone, elixir_of_life
+    print("philosophers_stone():", philosophers_stone())
+    print("elixir_of_life():", elixir_of_life())
