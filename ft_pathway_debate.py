@@ -13,3 +13,11 @@ if __name__ == "__main__":
     from alchemy.transmutation import philosophers_stone, elixir_of_life
     print("philosophers_stone():", philosophers_stone())
     print("elixir_of_life():", elixir_of_life())
+    print()
+
+    print("Testing Package Access:")
+    import alchemy.transmutation
+    print("alchemy.transmutation.lead_to_gold():",
+          alchemy.transmutation.lead_to_gold())
+    print("alchemy.transmutation.philosophers_stone():",
+          alchemy.transmutation.philosophers_stone())
